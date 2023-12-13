@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    padding: 40px;
+    list-style: none;
+}
+
+.nav-logo img{
+    width: 120px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-manus ul{
+    color: white;
+    list-style: none; 
+    display: flex;
+   
+}
+
+.item{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+/* ============================ */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    background-image: url(./images/background.png),
+    linear-gradient(45deg, rgb(8, 8, 8), #000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-title{
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+.banner-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+   
+}
+
+/* about section style */
+
+.about-title{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+   
+}
+
+.about-text, h2, p, btn{
+    padding: 10px 0px 10px 0px;
+}
+
+
+/* our service style start */
+.div-container{
+    background-color: #000;
+}
+
+.service-container{
+   width: auto;
+   height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+   
+    
+
+}
+
+.box{
+    height: 290px;
+    width: 250px;
+    background-color: #000;
+    box-shadow: 4px 4px 60px  gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.div-title{
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+   
+}
+
+.service-title{
+padding: 10px;
+}
+
+.service-description{
+    padding: 10px;
+    
+}
+
+
+/* footer style start */
+
+footer{
+background-color: #000;
+width: auto;
+height: 400px;
+
+
+}
+
+.contact-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    padding-top: 30px;
+
+}
+
+.footer-box{
+    width: 220px;
+    height: 250px;
+    text-align: justify;
+}
